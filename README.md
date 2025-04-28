@@ -1,6 +1,7 @@
-# This is a 2D pixel-art style shooting game developed in C++ using the graphics.h library. The player controls a spaceship, moves left and right across the screen, and shoots down aliens. The objective is to #destroy incoming enemies, avoid getting hit, and achieve the highest score possible before losing all lives.
+# SHOOTING GAME #
+This is a 2D pixel-art style shooting game developed in C++ using the graphics.h library. The player controls a spaceship, moves left and right across the screen, and shoots down aliens. The objective is to #destroy incoming enemies, avoid getting hit, and achieve the highest score possible before losing all lives.
 
-🚀 ## Features
+🚀Features
 Smooth spaceship movement with arrow keys.
 
 Shooting mechanic triggered by 'X' or spacebar.
@@ -19,14 +20,14 @@ Interactive Menu with Play, High Scores (placeholders), and Exit options.
 
 Game Over and Restart functionality.
 
-🛠 ##Technologies Used
+🛠 Technologies Used
 C++
 
 graphics.h (WinBGIm library)
 
 Standard C++ libraries (cstdlib, ctime, conio.h, etc.)
 
-🖥## System Requirements
+🖥 System Requirements
 Operating System: Windows
 
 Graphics Library: graphics.h with BGI support
@@ -35,7 +36,7 @@ Resolution: 800×600 pixels
 
 Compiler: Turbo C++, Dev-C++, or any modern IDE with graphics.h support
 
-🎮## How to Play
+🎮 How to Play
 Move Left/Right: Use Arrow Keys.
 
 Shoot: Press X or Spacebar.
@@ -44,7 +45,7 @@ Goal: Destroy aliens while avoiding enemy bullets.
 
 End Condition: The game ends when all 3 lives are lost.
 
-⚙️ ## Setup Instructions
+⚙ Setup Instructions
 Ensure graphics.h, libbgi.a, and required BGI files are installed and correctly linked in your C++ compiler.
 
 Clone or Download the repository.
@@ -55,7 +56,7 @@ Compile and Run the program.
 
 Enjoy the gameplay!
 
-📜 ##Additional Notes
+📜 Additional Notes
 Alien movement speed increases as your score increases, enhancing the game's difficulty curve.
 
 Randomized alien bullets make the game challenging and unpredictable.
